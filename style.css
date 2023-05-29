@@ -1,8 +1,8 @@
 body{
     background-color: blue;  
-    -webkit-animation: background 20s infinite forwards ease-in-out;
+    animation: background 20s infinite forwards ease-in-out;
 }
-@-webkit-keyframes background{
+@keyframes background{
     0% { 
         background-color: rgb(255, 255, 255);
       }
